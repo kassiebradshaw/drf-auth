@@ -19,7 +19,7 @@ Let's move our API closer to production grade by adding Authentication and switc
 
 ### Features - Docker
 
-* [ ] Create a boilerplate `Dockerfile` and `docker-compose.yml` so you don't need to start from scratch each time.
+* [x] Create a boilerplate `Dockerfile` and `docker-compose.yml` so you don't need to start from scratch each time.
   * E.g. as a VS Code snippet, or a gist
 * [x] Switch to using Gunicorn instead of Django's built-in development server
   * Mind the number of workers to avoid sluggishness
